@@ -15,7 +15,7 @@ const Manager = () => {
 
     const getPasswords = async () => {
         // async-await fxn fetching from db
-        let req = await fetch("https://kmd-rho.vercel.app/", {
+        let req = await fetch("https://kmd-rho.vercel.app", {
             method: 'GET',
             credentials: 'include' // Include credentials in the request if needed
         });
